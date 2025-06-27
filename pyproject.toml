@@ -1,0 +1,18 @@
+[project]
+name = "spherical-harmonics"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gmsh>=4.13.1",
+    "numpy>=2.3.1",
+    "numpy-stl>=3.2.0",
+    "scipy>=1.16.0",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
