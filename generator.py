@@ -176,7 +176,7 @@ def optimize(stl_path: str, result_path: str, target_size):
 SH_OPT_DIR.mkdir(exist_ok=True, parents=True)
 
 for file in tqdm.tqdm(sorted(SH_DIR.iterdir())):
-    if not file.is_file():
+    if not file.suffix == '.stl':
         continue
     try:
         gmsh.initialize()
