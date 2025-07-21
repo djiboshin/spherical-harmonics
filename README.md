@@ -27,7 +27,7 @@ uv sync
 
 Run the script to generate the models:
 ```bash
-uv run generating.py
+uv run generator.py
 ```
 This script generates `.stl` files of spherical harmonics on a regular mesh and then optimizes them using `gmsh` library.
 
